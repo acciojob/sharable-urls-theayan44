@@ -2,7 +2,7 @@
 function handleClick() {
 	const nameInput = document.getElementById("name");
 	const yearInput = document.getElementById("year");
-	const headingInput = document.getElementById("heading");
+	const headingInput = document.getElementById("url");
 	let txt = "https://localhost:8080/";
 	const name = nameInput.value;
 	const year = yearInput.value;
